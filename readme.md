@@ -24,6 +24,11 @@ const terminalImage = require('terminal-image');
 (async () => {
 	console.log(await terminalImage.file('unicorn.jpg'));
 })();
+
+// Image from url
+(async () => {
+	console.log(await terminalImage.url('https://www.host.com/img.jpg'));
+})();
 ```
 
 
@@ -61,4 +66,4 @@ File path to the image.
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com), [Faisal KANOUT](https://kanout.com)
